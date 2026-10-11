@@ -1,0 +1,26 @@
+[package]
+name = "house_move_calculator"
+version = "0.1.0"
+edition = "2021"
+description = "Visual calculator for moving house in Scotland: sell vs keep-and-let, mortgages, LBTT/ADS, rental tax, CGT"
+license = "MIT"
+
+[lib]
+name = "house_calc"
+path = "src/lib.rs"
+
+[[bin]]
+name = "house_move_calculator"
+path = "src/main.rs"
+
+[dependencies]
+eframe = { version = "0.36", default-features = false, features = ["default_fonts", "glow", "persistence", "wayland", "x11"] }
+egui_plot = "0.37"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+
+[profile.dev]
+opt-level = 1
