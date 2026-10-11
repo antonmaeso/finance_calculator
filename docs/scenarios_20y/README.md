@@ -60,3 +60,4 @@ Scenario overviews:
 
 > A model to help you think, not financial or tax advice.
 - Leith market research and recalibrated runs: [LEITH.md](LEITH.md)
+- Airbnb a 1-bed/studio in Leith: [AIRBNB.md](AIRBNB.md)
