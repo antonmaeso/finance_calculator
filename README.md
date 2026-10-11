@@ -12,7 +12,7 @@ Every input is a slider, and all charts update as you drag.
 ## Run it on your Mac
 
 ```bash
-# 1. Install Rust (one-off)
+# 1. Install Rust (one-off; needs rustc 1.92 or newer — run `rustup update` if older)
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # 2. From this folder
