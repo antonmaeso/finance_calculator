@@ -59,3 +59,4 @@ Scenario overviews:
 | 2 No equity release (infeasible) ![](s2_no_equity_release.png) | |
 
 > A model to help you think, not financial or tax advice.
+- Leith market research and recalibrated runs: [LEITH.md](LEITH.md)
