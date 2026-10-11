@@ -31,3 +31,16 @@ Every option comes out worse than borrowing against the first home. Two reasons:
 | No release, your £20k | 2-bed long let | 1-bed long let | Airbnb central |
 |---|---|---|---|
 | ![](mortgage_on_new/m0_no_release_your_cash.png) | ![](mortgage_on_new/n1_2bed_longlet.png) | ![](mortgage_on_new/n2_1bed_longlet.png) | ![](mortgage_on_new/n3_airbnb_central.png) |
+
+## With the sofa bed (Airbnb sleeps 4)
+A sofa bed lets you list for 4 guests, which in Edinburgh typically adds about £15–20/night. Cleaning and licence costs are a bit higher (the licence fee band is for 4–6 occupants). Same financing as above.
+
+| Scenario | Gross/mo | Keep − Sell @20y |
+|---|---:|---:|
+| Weak (£115, 55%) | £1,924 | **−£97,460** |
+| Central (£130, 65%) | £2,570 | **−£398** (break-even) |
+| Strong (£150, 75%) | £3,422 | **+£121,321** |
+
+Break-even gross is about £2,572/mo, i.e. £130/night at 65% occupancy. This is still subject to the planning permission problem (84–90% of applications refused).
+
+![](mortgage_on_new/p1_sofabed_central.png)
