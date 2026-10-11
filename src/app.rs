@@ -47,6 +47,14 @@ impl App {
         if let Some(t) = std::env::var("HOUSE_CALC_TAB").ok().and_then(|v| v.parse::<usize>().ok()) {
             app.tabs.tab = Tab::ALL[t.min(Tab::ALL.len() - 1)];
         }
+        // Load inputs from a JSON file on launch, e.g. HOUSE_CALC_INPUTS=my_plan.json.
+        if let Some(i) = std::env::var("HOUSE_CALC_INPUTS")
+            .ok()
+            .and_then(|p| std::fs::read_to_string(p).ok())
+            .and_then(|s| serde_json::from_str::<Inputs>(&s).ok())
+        {
+            app.inputs = i;
+        }
         app
     }
 
